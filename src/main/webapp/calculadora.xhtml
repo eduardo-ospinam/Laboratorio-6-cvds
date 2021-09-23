@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+xmlns:f="http://xmlns.jcp.org/jsf/core"
+xmlns:p="http://primefaces.org/ui">
+ <h:head>
+    <link rel="http://localhost:8080/faces/calculadora.xhtml"/>
+ </h:head>
+
+ <h:body>
+    <p:breadCrumb>
+        <p:menuitem value="Index" url=" http://localhost:8080/faces/calculadora.xhtml" />
+    </p:breadCrumb> 
+
+    <h1>Calculadora por Ospina y Medina </h1>
+        <h:form id="calculadora_form" >
+            <div style="padding:15px;">
+                <div style="padding: 15px;">
+                    <p:outputLabel value="Ingrese la lista de valores a leer: " style="font-weight: bold;"/>
+                    <p:inputText  id= "valores" binding="#{valores}"  style="width:100%;" >
+                    </p:inputText>
+                </div>
+
+                <div style="padding: 15px;">
+                    <p:outputLabel value="El promedio de los numeros es: " style="font-weight: bold;"/>
+                    <p:outputLabel value="#{BackingBean.promedio}"/>
+                </div>
+
+                <div style="padding: 15px;">
+                    <p:outputLabel value="La Desviacion Estandar de los valores es: " style="font-weight: bold;"/>
+                    <p:outputLabel value="#{BackingBean.desviacionEstandar}" />
+                </div>
+
+                <div style="padding: 15px;">
+                    <p:outputLabel value="La Varianza de los valores es: " style="font-weight: bold;"/>
+                    <p:outputLabel value="#{BackingBean.varianza}" />
+                </div>
+
+                <div style="padding: 15px;">
+                    <p:outputLabel value="La moda de los valores es: " style="display:none" />
+                    <p:outputLabel value="#{BackingBean.moda}" style="display:none"/>
+                </div>
+
+                <div style="padding: 30px;">
+                    <p:commandButton value="Ingresar Valores" update="calculadora_form"  actionListener="#{BackingBean.calculadora(valores.value)}" style="width: 100%;"/>
+                    <p:spacer width="10"/>
+                    <p:commandButton value="Reiniciar" update="calculadora_form"  actionListener="#{BackingBean.restart}" style="width: 100%;"/>
+                </div>
+            </div>
+        </h:form>
+</h:body>
+</html>
