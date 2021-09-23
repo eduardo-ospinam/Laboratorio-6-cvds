@@ -1,6 +1,7 @@
 # Laboratorio-6-cvds
 # Integrantes
 > Ospina Mejia Eduardo
+
 > Medina Rativa Deivid Medina
 
 # Integración contínua con CircleCI
@@ -15,6 +16,10 @@
 ![](https://i.postimg.cc/K8sVd2bK/Imagen2.png)
 ![](https://i.postimg.cc/vmfz3FZw/Imagen3.png) 
 ![](https://i.postimg.cc/ZnCvspxv/Imagen4.png)
+
+#### Cambiando versión del docker.
+
+![](https://i.postimg.cc/MZBnH7pH/Imagen5.png)
 
 
 ### End
