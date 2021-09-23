@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="validarFormulario.js"></script>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <br><br>
+        <h2>Ingrese el Id que desea buscar.</h2>
+        <form action="http://localhost:8080/pruebaOspinaMedina" onsubmit="return validarFormulario()" method="POST">
+            <input type="text" placeholder="Ingresa el Id a buscar" name="id" id="id">
+            <br><br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </body>
+</html>
