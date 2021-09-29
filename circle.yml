@@ -4,6 +4,6 @@ machine:
 
 deployment:
   staging:
-    branch: master
+    branch: main
     heroku: 
-      appname: aplicacioncvds6
+      appname: lab6-ospina-medina
