@@ -35,29 +35,32 @@
 
 ![](https://i.postimg.cc/mkxc74t6/lab554.jpg)
 
-4.
+4. 
+![](https://i.postimg.cc/vZ50n8TC/lab561.jpg)
+
+5.
 
 ![](https://i.postimg.cc/tJhs5c6R/lab555.jpg)
 
-5. 
+6. 
 
 ![](https://i.postimg.cc/WbwDqQjX/lab556.jpg)
 
-6. 
+7. 
 
 ![](https://i.postimg.cc/Qt7C8z0g/lab557.jpg)
 
-7.
+8.
 
 ![](https://i.postimg.cc/3NCwpvMd/lab558.jpg)
 
-8.
-
-![]()
-
 9.
 
-![]()
+![](https://i.postimg.cc/nVwSbwNS/lab559.jpg)
+
+10.
+
+![](https://i.postimg.cc/bNDCz9hy/lab560.jpg)
 
 
 ### End
