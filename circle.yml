@@ -4,6 +4,12 @@ machine:
 
 deployment:
   staging:
-    branch: main
+    branch: master
     heroku: 
       appname: lab6-ospina-medina
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
