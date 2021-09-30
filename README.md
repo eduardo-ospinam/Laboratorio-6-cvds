@@ -81,4 +81,15 @@
 
 ![Imagen11.png](https://i.postimg.cc/YCDG3Z0k/Imagen11.png)
 
+## Parte II.
+
+![Imagen1.png](https://i.postimg.cc/qqmCn2RX/Imagen1.png)
+
+![Imagen2.png](https://i.postimg.cc/LXDqKjzK/Imagen2.png)
+
+![Imagen3.png](https://i.postimg.cc/HnLrpj2J/Imagen3.png)
+
+![Imagen4.png](https://i.postimg.cc/s29x75HQ/Imagen4.png)
+
+
 ### End
