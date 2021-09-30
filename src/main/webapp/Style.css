@@ -1,0 +1,30 @@
+body {
+	background: lightgrey;
+	margin: 0;
+	text-align: center;
+	font-family: Arial, Helvetica;
+}
+
+#valoresaleer{
+	width: 100%;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#botones{
+	width: 100%;
+	height: 100px;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 100px;
+}
+
+header{
+	background: lightblue;
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 100px;
+}
+
